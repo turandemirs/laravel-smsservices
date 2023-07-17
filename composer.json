@@ -48,10 +48,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Fowitech\\Sms\\SmsServiceProvider"
+                "Turandemir\\SmsServices\\SmsServiceProvider"
             ],
             "aliases": {
-                "Sms": "Fowitech\\Sms\\Facades\\Sms"
+                "Sms": "Turandemir\\SmsServices\\Facades\\Sms"
             }
         }
     },
