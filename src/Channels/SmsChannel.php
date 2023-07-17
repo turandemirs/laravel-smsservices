@@ -1,6 +1,6 @@
 <?php
 
-namespace Fowitech\Sms\Channels;
+namespace \Turandemir\SmsServices\Channels;
 
 use Illuminate\Notifications\Notification;
 
