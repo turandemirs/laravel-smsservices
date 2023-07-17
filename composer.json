@@ -1,8 +1,9 @@
 {
-    "name": "fowitech/laravel-sms",
+    "name": "turandemirs/laravel-smsservices",
     "description": "Persistent sms package for Laravel",
     "keywords": [
         "fowitech",
+        "turandemirs",
         "laravel",
         "twilio",
         "netgsm",
@@ -14,9 +15,7 @@
     "type": "library",
     "authors": [
         {
-            "name": "Oğuzhan Subaşı",
-            "email": "oguzhan.subasi@fowitech.com",
-            "homepage": "https://fowitech.com",
+            "name": turan demirs",           
             "role": "Developer"
         }
     ],
