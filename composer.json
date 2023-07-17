@@ -8,6 +8,7 @@
         "twilio",
         "netgsm",
         "iletimerkezi",
+        "asist",
         "sms"
     ],
     "homepage": "https://github.com/fowitech/laravel-sms",
