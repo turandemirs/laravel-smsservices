@@ -1,6 +1,6 @@
 <?php
 
-namespace Fowitech\Sms;
+namespace Turandemir\SmsServices;
 
 use Exception;
 
