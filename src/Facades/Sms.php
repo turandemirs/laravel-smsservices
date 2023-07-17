@@ -1,6 +1,6 @@
 <?php
 
-namespace Fowitech\Sms\Facades;
+namespace \Turandemir\SmsServices\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
