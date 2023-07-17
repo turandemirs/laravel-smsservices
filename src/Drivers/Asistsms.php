@@ -6,7 +6,7 @@ use Exception;
 
 class Netgsm extends Driver
 {
-    private $baseUrl = 'https://api.netgsm.com.tr/';
+    private $baseUrl = 'https://webservice.asistiletisim.com.tr/ContactService.asmx';
 
     public function __construct($options = [])
     {
