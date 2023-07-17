@@ -11,7 +11,7 @@
         "asist",
         "sms"
     ],
-    "homepage": "https://github.com/fowitech/laravel-sms",
+    "homepage": "https://github.com/turandemirs/laravel-smsservices",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -19,8 +19,17 @@
             "name": turan demirs",           
             "role": "Developer"
         }
-    ],
-  ,
+    ],  
+      "require": {
+        "php": "^7.4 || ^8.2",
+         "laravel/framework": "^8.0",
+        "turandemirs/laravel-sms": "^1.0"
+    },
+      "minimum-stability": "dev",
+      "prefer-stable": false,
+    "require-dev": {
+        "phpunit/phpunit": "^7.0 || ^8.2"
+    },
     "autoload": {
         "psr-4": {
             "Turandemir\\SmsServices\\": "src"
@@ -40,24 +49,6 @@
     },
     "config": {
         "sort-packages": true
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Turandemir\\SmsServices\\SmsServiceProvider"
-            ],
-            "aliases": {
-                "Sms": "Turandemir\\SmsServices\\Facades\\Sms"
-            }
-        }
-    },
-    "minimum-stability": "dev",
-      "require": {
-        "php": "^7.4 || ^8.2",
-         "laravel/framework": "^8.0",
-        "turandemirs/laravel-sms": "^1.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^7.0 || ^8.2"
-    },
+    }
+   
 }
