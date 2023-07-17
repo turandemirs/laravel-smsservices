@@ -10,9 +10,9 @@ class Netgsm extends Driver
 
     public function __construct($options = [])
     {
-        $this->sender = config('sms.netgsm.sender');
-        $this->username = config('sms.netgsm.username');
-        $this->password = config('sms.netgsm.password');
+        $this->sender = config('sms.asistsms.sender');
+        $this->username = config('sms.asistsms.username');
+        $this->password = config('sms.asistsms.password');
         $this->client = $this->getInstance();
     }
 
