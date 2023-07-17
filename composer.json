@@ -49,6 +49,10 @@
     },
     "config": {
         "sort-packages": true
-    }
+    },
+     "repositories": [
+        {"type": "composer", "url": "https://repo.packagist.com/turandemirs/"},
+        {"packagist.org": false}
+    ]
    
 }
