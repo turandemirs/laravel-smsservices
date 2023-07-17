@@ -1,6 +1,6 @@
 <?php
 
-namespace Fowitech\Sms\Drivers;
+namespace Turandemir\SmsServices\Drivers;
 
 use Exception;
 
