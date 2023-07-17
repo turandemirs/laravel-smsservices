@@ -11,7 +11,7 @@ return [
      * Twilio driver settings
      */
     'twilio' => [
-        'transport' => \Fowitech\Sms\Drivers\Twilio::class,
+        'transport' => \Turandemir\SmsServices\Drivers\Twilio::class,
         'account_sid' => env('TWILIO_ACCOUNT_SID', ''),
         'auth_token' => env('TWILIO_AUTH_TOKEN', ''),
         'phone' => env('TWILIO_PHONE', ''),
@@ -24,7 +24,7 @@ return [
      * Netgsm driver settings
      */
     'netgsm' => [
-        'transport' => \Fowitech\Sms\Drivers\Netgsm::class,
+        'transport' =>  \Turandemir\SmsServices\Drivers\Netgsm::class,
         'sender' => env('NETGSM_SENDER', ''),
         'username' => env('NETGSM_USERNAME', ''),
         'password' => env('NETGSM_PASSWORD', ''),
@@ -37,7 +37,7 @@ return [
      * Verimor driver settings
      */
     'verimor' => [
-        'transport' => \Fowitech\Sms\Drivers\Verimor::class,
+        'transport' =>  \Turandemir\SmsServices\Drivers\Verimor::class,
         'sender' => env('VERIMOR_SENDER', ''),
         'username' => env('VERIMOR_USERNAME', ''),
         'password' => env('VERIMOR_PASSWORD', ''),
@@ -52,7 +52,7 @@ return [
      * Mutlucell driver settings
      */
     'mutlucell' => [
-        'transport' => \Fowitech\Sms\Drivers\Mutlucell::class,
+        'transport' =>  \Turandemir\SmsServices\Drivers\Mutlucell::class,
         'sender' => env('MUTLUCELL_SENDER', ''),
         'username' => env('MUTLUCELL_USERNAME', ''),
         'password' => env('MUTLUCELL_PASSWORD', ''),
@@ -65,7 +65,7 @@ return [
      * Iletimerkezi driver settings
      */
     'iletimerkezi' => [
-        'transport' => \Fowitech\Sms\Drivers\Iletimerkezi::class,
+        'transport' =>  \Turandemir\SmsServices\Drivers\Iletimerkezi::class,
         'sender' => env('ILETIMERKEZI_SENDER', ''),
         'key' => env('ILETIMERKEZI_KEY', ''),
         'hash' => env('ILETIMERKEZI_HASH', ''),
@@ -79,7 +79,7 @@ return [
      * Vatansms driver settings
      */
     'vatansms' => [
-        'transport' => \Fowitech\Sms\Drivers\Vatansms::class,
+        'transport' =>  \Turandemir\SmsServices\Drivers\Vatansms::class,
         'sender' => env('VATANSMS_SENDER', ''),
         'userno' => env('VATANSMS_USERNO', ''),
         'username' => env('VATANSMS_USERNAME', ''),
@@ -93,7 +93,19 @@ return [
      * Toplusms driver settings
      */
     'toplusms' => [
-        'transport' => \Fowitech\Sms\Drivers\Toplusms::class,
+        'transport' =>  \Turandemir\SmsServices\Drivers\Toplusms::class,
+        'sender' => env('TOPLUSMS_SENDER', ''),
+        'api_id' => env('TOPLUSMS_API_ID', ''),
+        'api_key' => env('TOPLUSMS_API_KEY', ''),
+        'options' => [
+            //
+        ]
+    ],
+     /**
+     * Asist Telekom SMS driver settings
+     */
+    'toplusms' => [
+        'transport' =>  \Turandemir\SmsServices\Drivers\Asistsms::class,
         'sender' => env('TOPLUSMS_SENDER', ''),
         'api_id' => env('TOPLUSMS_API_ID', ''),
         'api_key' => env('TOPLUSMS_API_KEY', ''),
